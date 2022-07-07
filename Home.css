@@ -1,38 +1,33 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/35425397_1973549199354158_8312639868303835136_n.jpeg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/255546386_112316704591705_2399221389000473994_n.jpeg");
   background-position: 50% 50%;
-}
-
-.u-section-1 .u-sheet-1 {
-  min-height: 297px;
+  min-height: 348px;
 }
 
 .u-section-1 .u-text-1 {
   letter-spacing: 2px;
   text-shadow: 1px 2px 8px rgba(26,26,26,1);
-  margin: 124px 167px 60px 213px;
+  font-size: 3.75rem;
+  margin: 60px 50px;
 }
 
 @media (max-width: 1199px) {
    .u-section-1 {
-    background-size: 120%;
-  }
-
-  .u-section-1 .u-sheet-1 {
-    min-height: 262px;
+    min-height: 287px;
   }
 
   .u-section-1 .u-text-1 {
     width: auto;
-    margin-top: 85px;
-    margin-right: 79px;
-    margin-left: 101px;
+    margin-top: 78px;
+    margin-right: calc(((100% - 1140px) / 2) + 129px);
+    margin-left: calc(((100% - 1140px) / 2) + 151px);
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 201px;
+   .u-section-1 {
+    background-size: 120%;
+    min-height: 220px;
   }
 
   .u-section-1 .u-text-1 {
@@ -42,14 +37,18 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 151px;
+   .u-section-1 {
+    min-height: 165px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 95px;
+   .u-section-1 {
+    min-height: 104px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 1.5rem;
   }
 } .u-section-2 {
   background-image: url("images/bg1.jpeg");
@@ -69,7 +68,7 @@
 }
 
 .u-section-2 .u-video-1 {
-  height: 486px;
+  height: 503px;
   width: 1117px;
   box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
   margin: 58px auto 60px;
@@ -77,10 +76,10 @@
 
 .u-section-2 .embed-responsive-1 {
   position: absolute;
-  width: 178%;
-  left: -39%;
-  height: 178%;
-  top: -39%;
+}
+
+.u-section-2 .u-video-poster-1 {
+  background-image: url("images/ScreenShot2022-07-07at10.39.47AM.png");
 }
 
 @media (max-width: 1199px) {
@@ -95,7 +94,7 @@
   }
 
   .u-section-2 .u-video-1 {
-    height: 409px;
+    height: 424px;
     width: 940px;
   }
 }
@@ -106,7 +105,7 @@
   }
 
   .u-section-2 .u-video-1 {
-    height: 313px;
+    height: 325px;
     width: 720px;
   }
 }
@@ -117,7 +116,7 @@
   }
 
   .u-section-2 .u-video-1 {
-    height: 235px;
+    height: 244px;
     width: 540px;
   }
 }
@@ -128,7 +127,7 @@
   }
 
   .u-section-2 .u-video-1 {
-    height: 148px;
+    height: 154px;
     width: 340px;
     margin-bottom: -101px;
   }
